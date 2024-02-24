@@ -10,7 +10,6 @@ connection = mysql.connector.connect(
     port=25723,
     database='railway'
 )
-
 # Função para executar consultas e obter resultados em um DataFrame
 def execute_query(query):
     return pd.read_sql_query(query, connection)
