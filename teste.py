@@ -1,7 +1,7 @@
 import mysql.connector
 import pandas as pd
 import streamlit as st
-#Conectar ao banco de dados
+# Conectar ao banco de dados
 connection = mysql.connector.connect(
     host='roundhouse.proxy.rlwy.net',
     user='root',
