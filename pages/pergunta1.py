@@ -6,8 +6,8 @@ import streamlit as st
 connection = mysql.connector.connect(
     host='roundhouse.proxy.rlwy.net',
     user='root',
-    password='3AA3dHhabdha3e-CB2DFagg5gGhdFab4',
-    port=25723,
+    password='-gceg36h5FB1ggBDFC6Bgaa51hcbh53D',
+    port=35304,
     database='railway'
 )
 # Função para executar consultas e obter resultados em um DataFrame
